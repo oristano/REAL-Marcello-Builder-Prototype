@@ -4,8 +4,8 @@
 
 #include "planedirector.h"
 #include "boing747Builder.h"
-#include "planebuilder2.h"
-#include "planebuilder3.h"
+#include "spitfireBuilder.h"
+#include "mig1Builder.h"
 
 //#include "plane_builder.h"
 
@@ -23,8 +23,8 @@ public:
 
 private:
 	boing747Builder* boing;
-	spitfireBuilder* boing;
-	mig1Builder* boing;
+	spitfireBuilder* spitfire;
+	mig1Builder* mig;
 
 
 	/*FileDirector fd;
@@ -34,8 +34,9 @@ private:
 
 
 PlaneSelector::PlaneSelector()
-	: ptxtfb(new TextFileBuilder("my_file")),
-	phtmlfb(new HTMLFileBuilder("my_file"))
+	: boing(new boing747Builder()),
+	spitfire(new spitfireBuilder()),
+	mig(new mig1Builder()),
 {}
 
 

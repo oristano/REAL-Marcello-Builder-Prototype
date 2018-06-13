@@ -144,8 +144,8 @@
   <ItemGroup>
     <ClInclude Include="plane.h" />
     <ClInclude Include="boing747Builder.h" />
-    <ClInclude Include="planebuilder2.h" />
-    <ClInclude Include="planebuilder3.h" />
+    <ClInclude Include="spitfireBuilder.h" />
+    <ClInclude Include="mig1Builder.h" />
     <ClInclude Include="planedirector.h" />
     <ClInclude Include="planeselector.h" />
     <ClInclude Include="plane_builder.h" />

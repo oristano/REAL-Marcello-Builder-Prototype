@@ -20,7 +20,7 @@ public:
 	virtual int buildSeats(int x) = 0;
 	virtual int buildEngine(int x) = 0;
 	virtual int buildWeight(int x) = 0;
-	virtual Plane getPlane() = 0;
+	//virtual Plane getPlane() = 0;
 protected:
 	Plane plane;
 };

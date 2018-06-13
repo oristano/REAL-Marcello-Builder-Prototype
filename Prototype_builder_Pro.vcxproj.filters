@@ -21,12 +21,6 @@
     <ClInclude Include="plane_selector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="planebuilder2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="planebuilder3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="plane_builder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -37,6 +31,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="boing747Builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spitfireBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mig1Builder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

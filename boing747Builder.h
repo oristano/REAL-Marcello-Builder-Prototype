@@ -9,6 +9,7 @@
 class boing747Builder : public planebuilder
 {
 public:
+	boing747Builder();
 	boing747Builder(int, int, int);
 	virtual int buildSeats(int);
 	virtual int buildEngine(int);
